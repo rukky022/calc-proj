@@ -1,6 +1,7 @@
-def helloWorld():
-    strHello = "Hello World!"
-    return strHello
+def helloWorld(name):
+    strHello = "Hello"
+    return strHello + ", " + name + "!"
 
 def main():
-    helloWorld()
+    helloWorld("Rukky")
+    
